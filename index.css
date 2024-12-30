@@ -172,9 +172,27 @@ body {
     text-align: center;
     padding-bottom: 12px;
 }
-.category-box{
 
+.category-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+    gap: 15px;
 }
-.item-box{
-    
+
+.item-box {
+    padding-top: 14px;
+}
+.item-box img{
+    width: 80px;
+}
+.item-box h3{
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.similar-pra {
+    font-size: 12px;
+
 }
