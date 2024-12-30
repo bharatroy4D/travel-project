@@ -159,17 +159,18 @@ body {
     background-color: white;
 }
 
-.category-container {}
+.category-container {
+    margin-top: 20px;
+}
 
 .mini-title {
     font-size: 14px;
     color: red;
-    text-align: center;
-    padding-top: 60px;
+    /* text-align: center; */
+    padding-top: 20px;
 }
 
 .main-title {
-    text-align: center;
     padding-bottom: 12px;
 }
 
@@ -195,4 +196,23 @@ body {
 .similar-pra {
     font-size: 12px;
 
+}
+.circle{
+    width: 80px;
+    height: 100px;
+    border-radius: 7px;
+    background-color: brown;
+
+}
+.honeymoon-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 40px 0;
+}
+.honeymoon-container img{
+    width: 500px;
 }
