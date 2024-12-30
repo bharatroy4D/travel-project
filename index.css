@@ -82,10 +82,6 @@ body {
     gap: 30px;
 }
 
-.place-container h1 {
-    text-align: center;
-    margin-bottom: 15px;
-}
 
 .card {
     border-radius: 6px;
@@ -97,6 +93,7 @@ body {
 .card img {
     width: 230px;
     padding: 5px;
+    border-radius: 6px;
 }
 
 .card h3 {
@@ -104,12 +101,6 @@ body {
     font-weight: bold;
     padding: 6px;
 
-}
-
-.card p {
-    font-size: 14px;
-    font-weight: bold;
-    padding: 6px;
 }
 
 .btn-container {
@@ -179,7 +170,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 200px;
-    gap: 15px;
+    gap: 30px;
 }
 
 .item-box {
@@ -241,10 +232,11 @@ body {
 }
 
 .resort-img img {
- width: 400px;
- height: 320px;
+    width: 400px;
+    height: 320px;
 }
-.promotion-container{
+
+.promotion-container {
     width: 80%;
     margin: auto;
     background-image: url('/images/Mask\ Group\ \(2\).png');
@@ -253,11 +245,25 @@ body {
     background-size: contain;
 
 }
-.promotion-img{
+
+.promotion-img {
     margin-top: 20px;
     display: flex;
     gap: 30px;
 }
-.promotion-img img{
+
+.promotion-img img {
     width: 200px;
+}
+.footer-section{
+    margin-top: 50px;
+    
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
