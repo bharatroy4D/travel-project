@@ -227,8 +227,11 @@ body {
     margin: auto;
     display: flex;
     gap: 50px;
-    padding: 40px 0;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .resort-box {
     display: flex;
@@ -237,7 +240,20 @@ body {
     margin-top: 15px;
 }
 
-.resort-box img {
-    width: 45px;
-    height: 45px;
+.resort-img img {
+ width: 400px;
+ height: 320px;
+}
+.promotion-container{
+    width: 80%;
+    margin: auto;
+
+}
+.promotion-img{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.promotion-img img{
+    width: 200px;
 }
