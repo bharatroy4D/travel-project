@@ -247,6 +247,10 @@ body {
 .promotion-container{
     width: 80%;
     margin: auto;
+    background-image: url('/images/Mask\ Group\ \(2\).png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
 .promotion-img{
