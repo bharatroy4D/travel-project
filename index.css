@@ -255,15 +255,43 @@ body {
 .promotion-img img {
     width: 200px;
 }
-.footer-section{
+
+.footer-section {
     margin-top: 50px;
-    
+    background-color:whitesmoke;
+    background-image: url('/images/Footer\ img.png');
+    background-repeat: no-repeat;
+    background-position:  bottom right;
+
+
 }
-.footer-container{
+
+.footer-container {
     width: 80%;
     margin: auto;
     display: flex;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 0;
+}
+
+.contact-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-icon img {
+    width: 30px;
+}
+.footer-card h3{
+    margin-bottom: 15px;
+}
+.footer-card p{
+    padding-bottom: 17px;
+}
+.inp-content input{
+    padding: 11px;
+    text-align: center;
+    font-size: 14px;
 }
